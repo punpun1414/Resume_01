@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: rgb(0, 176, 235);
+}
+
+nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 45px;
+    margin: auto;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #f1eeee;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.hero-text--box {
+    color: #ffffff;
+}
+
+.hero-button {
+    display: flex;
+}
+
+.hero-bt--getStar {
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-right: 30px;
+
+    background-color: rgb(241, 3, 158);
+}
+
+.hero-bt--watch {
+    display: flex;
+    align-items: center;
+}
+
+.hero-imge{
+margin: 15px;
+padding: 15px;
+width: 518px;x
+
+}
+
+.pricingmain{
+    background-color: #64e486;
+    height: 600px;
+    }
+    
+    .pricing{
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .box{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        width: 1100px;
+    }
+    .card1{
+        background-color: white;
+        width: 320px;
+        height: 400px;
+        box-shadow: 0 10px 10px rgba(0,0,0,.5);
+         
+    }
+
+    .box1{
+        align-items: center;
+        margin: 40PX;
+        text-align: left;
+        color: rgb(16, 16, 150);
+        line-height: 50px;
+        
+    }
+
+    .dollar{
+        margin: 20PX;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .freeplan{
+        text-align: left;  
+        margin: 20px; 
+        line-height: 1px; 
+        font-size: 14px;
+    }
+
+
+    /*------------------------------*/
+
+
+    .member {
+        background-color: #c3affa;
+        padding: 40px;
+        
+    }
+    
+    .text-h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 40px;
+        text-transform: uppercase;
+    }
+    
+    .text-param {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .member-box {
+        width: 1100px;
+        background-color: rgb(175, 228, 253);
+        margin: auto;
+    
+        box-shadow: 0 10px 10px #888888;
+        border-radius: 5px;
+        padding: 1px 40px 40px;
+    
+    }
+    
+    table {
+        width: 80%;
+        border: 1px solid orange;
+        border-collapse: collapse;
+    
+        margin: auto;
+    }
+    
+    th, td{
+        border: 1px solid orange;
+    }
+    
+    th{
+    
+    }
+    
+    td{
+    
+    }
